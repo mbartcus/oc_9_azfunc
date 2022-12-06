@@ -1,0 +1,17 @@
+,
+    {
+      "type": "blob",
+      "dataType": "binary",
+      "direction": "in",
+      "name": "allclicksdf",
+      "path": "oc9/usr_clicks.gzip",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "type": "blob",
+      "dataType": "binary",
+      "direction": "in",
+      "name": "embdata",
+      "path": "oc9/embedding_proj.gzip",
+      "connection": "AzureWebJobsStorage"
+    }
